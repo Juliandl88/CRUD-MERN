@@ -1,4 +1,4 @@
-//Importamos la conexión de la base de datos para
+//Importamos conexión de la base de datos
 
 import db from "../database/db";
 
