@@ -5,4 +5,6 @@ const db = new Sequelize("db_crud_mern", "root", "", {
     dialect: "mysql",
 })
 
+
+
 export default db
