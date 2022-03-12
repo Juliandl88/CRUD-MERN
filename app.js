@@ -29,9 +29,9 @@ try {
 }
 
 app.get("/", (req, res) => {
-  res.send("Hello World");
+  res.send("HOLA MUNDO");
 });
 
 app.listen(8000, () => {
-  console.log("Server on port 8000");
+  console.log("Server running on http://localhost:8000/");
 });
