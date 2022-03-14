@@ -19,7 +19,7 @@ db.authenticate()
     console.log("Database Connected");
 })
 .catch(err => {
-    console.log("Conectado a la base de datos Connection Error ${err}");
+    console.log("Connection Error ${err}");
 })
 
 try {
