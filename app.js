@@ -16,10 +16,10 @@ app.use("/blogs", blogRoutes);
 
 db.authenticate()
 .then(() => {
-    console.log("Database Connected");
+    console.log("Conectado a la base de datos");
 })
 .catch(err => {
-    console.log("Connection Error ${err}");
+    console.log("Error en la conexión de la base de datos: ${err}");
 })
 
 try {
